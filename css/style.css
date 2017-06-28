@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Oxygen');
+
+
+body{
+	background-color: #649b88;
+}
+
+h1 { 
+	font-family: 'Lobster', cursive; 
+	text-align: center; 
+	color: #f2f2f2; 
+	font-size: 62px;
+}
+
+#main {
+	height: 500px;
+	width: 450px;
+	margin: 0 auto;
+	background-color: #f2f2f2;
+	border-radius:5px;
+	text-align: center;
+	padding-top: 50px;
+	font-family: 'Oxygen', sans-serif
+}
+
+input{
+	background-color: #f2f2f2;
+	border: 1px solid grey;
+	border-radius: 2px;
+	width: 180px;
+	height: 20px;
+}
+
+button{ 
+	height: 40px; width: 120px;
+	background-color: #8fcbc1;
+	border: 1px solid #8fcbc1;
+	border-radius: 2px;
+	color:white;
+	font-weight: bold;
+
+}
+.texte{
+	height: 30px;
+	font-weight: bold;
+}
+#winnerPlace{
+	color: #8fcbc1;
+	font-family: 'Lobster', cursive;
+}
+.score{
+	width: 450px;
+	height: 50px;
+	margin: 0 auto;
+	background-color: #48e276
+	border-radius: 2px;
+	font-weight: bold;
+}
+
+
+i{ 
+	color: #8fcbc1; 
+	display:flex; 
+	justify-content: space-between; 
+	padding-left: 50px;
+}
+
+.picto { margin : 0 auto; }
+/*
+orange:e7683d
+jaune: f3a64a*/
+
+[placeholder]{
+	font-style: italic;
+	font-family: 'Oxygen', sans-serif;
+}

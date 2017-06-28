@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Pierre - Feuille - Ciseaux</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<h1>Pierre, feuille, ciseaux</h1>
+<div id ="main">
+	<form>
+		 <label></label></br><input type="text" name="username" id="username" placeholder="Pseudo :"></br>
+	  <div class="userchoice">	 
+		<label></label></br><input type="text" name="userchoice" id="userChoice" placeholder="pierre, feuille ou ciseaux :"> 
+      </div>	
+		</br>
+		<button onclick="changeTexte()" type="button"> Jouer !</button>
+	</form>
+	<div class="choixOrdi">
+		<p id="texte">Faites vos jeux !</p>
+		<h1 id="winnerPlace">Résultat</h1>
+	</div>
+		<!-- <button onclick="" type="submit" > Rejouer !</button> -->
+	<div class="score">
+		<p id="score"> Scores</p>		
+	</div>
+
+	<div class="picto">
+		<i class="fa fa-hand-rock-o fa-4x"></i>
+		<i class="fa fa-hand-paper-o fa-4x"></i>
+		<i class="fa fa-hand-scissors-o fa-4x"></i>
+	</div><!-- /picto -->
+</div><!-- /main -->
+<script type="text/javascript" src="js/script.js"></script>
+<script src="https://use.fontawesome.com/cdb0e95dfa.js"></script>
+</body>
+</html>
